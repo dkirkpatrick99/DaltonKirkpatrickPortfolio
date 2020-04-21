@@ -2642,3 +2642,29 @@ input, select, textarea {
 		margin-right: 60px;
 		margin-left: 60px;
 	}
+
+	.resume {
+		/* max-width: 100px; */
+		/* text-align: center; */
+		font-weight: bold;
+	
+	}
+
+	.resume-image{
+		max-width: 500px;
+	}
+
+	.contact-stuff {
+		font-size: 25px;
+		/* margin-right: 50px; */
+		text-align: center;
+	}
+
+	.proj-title {
+		font-size: 30px;
+		font-weight: 600;
+	}
+
+	.proj-desc {
+		font-size: 20px;
+	}
