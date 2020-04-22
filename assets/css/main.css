@@ -2031,6 +2031,10 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		#header .icons a {
+			font-size: 35px;
+		}
+
 /* Header */
 
 	#header {
