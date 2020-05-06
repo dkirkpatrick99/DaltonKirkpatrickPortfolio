@@ -2651,6 +2651,10 @@ input, select, textarea {
 		margin-left: 60px;
 	}
 
+	.skills-icons i:hover {
+		color: #222629;
+	}
+
 	.resume {
 		/* max-width: 100px; */
 		/* text-align: center; */
