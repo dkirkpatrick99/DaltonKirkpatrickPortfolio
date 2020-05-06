@@ -65,17 +65,17 @@ html {
   .panel1 > *:first-child { transform: translateY(0%); }
   .panel1.open-active > *:first-child { transform: translateY(-70%); }
   .panel1 > *:last-child { transform: translateY(510%); }
-  .panel1.open-active > *:last-child { transform: translateY(110%); }
+  .panel1.open-active > *:last-child { transform: translateY(100%); }
 
   .panel2 > *:first-child { transform: translateY(0%); }
   .panel2.open-active > *:first-child { transform: translateY(-70%); }
   .panel2 > *:last-child { transform: translateY(510%); }
-  .panel2.open-active > *:last-child { transform: translateY(110%); }
+  .panel2.open-active > *:last-child { transform: translateY(100%); }
 
   .panel3 > *:first-child { transform: translateY(10%); }
   .panel3.open-active > *:first-child { transform: translateY(-70%); }
   .panel3 > *:last-child { transform: translateY(510%); }
-  .panel3.open-active > *:last-child { transform: translateY(110%); }
+  .panel3.open-active > *:last-child { transform: translateY(100%); }
 
   .panel p {
     text-transform: uppercase;

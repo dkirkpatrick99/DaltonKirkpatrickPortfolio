@@ -2309,7 +2309,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section {
-				padding: 3em 0;
+				padding: 1em 0;
 			}
 
 			#main section.cover {
@@ -2677,6 +2677,3 @@ input, select, textarea {
 		font-size: 20px;
 	}
 
-	/* #portfolio {
-		padding-top: 10px !important;
-	} */
