@@ -143,7 +143,7 @@ input, select, textarea {
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		header > p {
@@ -2258,6 +2258,7 @@ input, select, textarea {
 
 			#main > section.two {
 				background-color: #f5fafa;
+				padding-top: 10px;
 			}
 
 			#main > section.three {
@@ -2296,6 +2297,9 @@ input, select, textarea {
 				margin-left: 300px;
 			}
 
+	}
+	.two {
+		padding-top: 10px;
 	}
 
 /* Normal */
@@ -2672,3 +2676,7 @@ input, select, textarea {
 	.proj-desc {
 		font-size: 20px;
 	}
+
+	/* #portfolio {
+		padding-top: 10px !important;
+	} */
