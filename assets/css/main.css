@@ -2258,7 +2258,8 @@ input, select, textarea {
 
 			#main > section.two {
 				background-color: #f5fafa;
-				padding-top: 10px;
+				margin-top: 40px;
+				transition: 0.4s;
 			}
 
 			#main > section.three {
@@ -2649,6 +2650,7 @@ input, select, textarea {
 		font-size: 100px;
 		margin-right: 60px;
 		margin-left: 60px;
+		transition: 0.3s;
 	}
 
 	.skills-icons i:hover {

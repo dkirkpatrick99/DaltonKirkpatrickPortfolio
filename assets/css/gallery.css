@@ -15,10 +15,16 @@ html {
   }
 
   .panels {
-    min-height: 110vh;
+    /* min-height: 80vh; */
     overflow: hidden;
     display: flex;
+    transition: 0.5s;
     /* margin-top: 50px; */
+  }
+
+  .panels.open {
+    height: 80vh;
+    transition: 0.5s;
   }
 
   .panel {
@@ -45,6 +51,7 @@ html {
     flex-direction: column;
   }
 
+  .panel0 { background-image:url(../../images/teather.png); }
   .panel1 { background-image:url(../../images/moneywiseface.png); }
   .panel2 { background-image:url(../../images/superjellyhero.png); }
   .panel3 { background-image:url(../../images/ballup.png); }
@@ -61,6 +68,11 @@ html {
     justify-content: center;
     align-items: center;
   }
+
+  .panel0 > *:first-child { transform: translateY(0%); }
+  .panel0.open-active > *:first-child { transform: translateY(-70%); }
+  .panel0 > *:last-child { transform: translateY(510%); }
+  .panel0.open-active > *:last-child { transform: translateY(100%); }
 
   .panel1 > *:first-child { transform: translateY(0%); }
   .panel1.open-active > *:first-child { transform: translateY(-70%); }
