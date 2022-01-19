@@ -1,6 +1,8 @@
 
 const panels = document.querySelectorAll('.panel');
 const panelContainer = document.querySelector('.panels')
+const descHeight = document.querySelector(".panels .project-desc").offsetHeight
+const panelHeight = document.querySelector(".panels").offsetHeight
 
 function toggleOpen() {
   this.classList.toggle('open');
@@ -15,10 +17,13 @@ function classCheck() {
     })
 
     if (check) {
-      // panelContainer.style.height = '80vh'
+      const cardHeight = descHeight + panelHeight
+      const strHeight = cardHeight.toString() + 'px'
+      panelContainer.style.height = strHeight
+      // debugger
       panelContainer.classList.add('open')
     } else {
-      // panelContainer.style.height = ''
+      panelContainer.style.height = ''
       panelContainer.classList.remove('open')
     }
   } 
@@ -47,7 +52,8 @@ function toggleActive(e) {
 }
 
 // panels.forEach(panel => panel.addEventListener('click', closeAll));
-
+// b = document.querySelector(".panels .project-desc")
+// a = document.querySelector(".panels")
 panels.forEach(panel => panel.addEventListener('click', toggleOpen));
 // panels.forEach(panel => panel.removeEventListener('click', toggleOpen));
 panels.forEach(panel => panel.addEventListener('transitionstart', toggleActive));

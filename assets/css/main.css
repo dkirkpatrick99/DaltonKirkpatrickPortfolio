@@ -2258,7 +2258,7 @@ input, select, textarea {
 
 			#main > section.two {
 				background-color: #f5fafa;
-				margin-top: 40px;
+				/* margin-top: 40px; */
 				transition: 0.4s;
 			}
 

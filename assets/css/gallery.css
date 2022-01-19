@@ -23,7 +23,7 @@ html {
   }
 
   .panels.open {
-    height: 80vh;
+    /* height: 80vh; */
     transition: 0.5s;
   }
 
